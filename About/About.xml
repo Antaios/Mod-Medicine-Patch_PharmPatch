@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Mod Medicine Patch Pharmacist Patch</name>
+  <author>Antaios</author>
+  <targetVersion>0.18.1722</targetVersion>
+  <description>
+	A patch to enable modded medicine options in Fluffy's Pharmacist mod.
+	
+	*Requires Mod Medicine Patch
+	*Requires Pharmacist
+	*Load AFTER BOTH
+	
+	Version A18_1.0.0
+ </description>
+</ModMetaData>
+
+
+
