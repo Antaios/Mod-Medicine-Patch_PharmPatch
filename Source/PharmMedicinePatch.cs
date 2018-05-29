@@ -77,8 +77,8 @@ namespace PharmMedicinePatch
 				var playerSetting = patient?.playerSettings?.medCare ?? MedicalCareCategory.Best;
 
 				//get values which indicate relative medical potency
-				int ph = localMedsList.IndexOf((int)pharmacist);
-				int ps = localMedsList.IndexOf((int)playerSetting);
+				int ph = localMedsList.IndexOf((int)pharmacist-2);
+				int ps = localMedsList.IndexOf((int)playerSetting-2);
 
 				MedicalCareCategory r = playerSetting;
 
