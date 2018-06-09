@@ -85,10 +85,6 @@ namespace PharmMedicinePatch
 				if (ph < ps)
 					r =  pharmacist;
 
-				//include notice in logs
-				Log.Message("Notice: Modified by PharmMedicinePatch | Selected Medicine: " + MedicalCareUtility.GetLabel(r)
-																		+ ", As opposed to: " + MedicalCareUtility.GetLabel(__result));
-
 				__result = r;
 			}
 		}
